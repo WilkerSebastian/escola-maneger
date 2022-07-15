@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "node-fetch": "^3.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "type": "module",
+  "name": "escola-maneger",
+  "description": "Essa aplicação tem como objetivo consumir a API que eu criei em outro repositório https://estudante-api.herokuapp.com/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilkerSebastian/escola-maneger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilkerSebastian/escola-maneger/issues"
+  },
+  "homepage": "https://github.com/WilkerSebastian/escola-maneger#readme"
+}
